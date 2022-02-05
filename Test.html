@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button keyin inputs .</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="a"></p>
+<p id="p"></p>
+
+<script>
+function myFunction() {
+  
+var length = prompt("Høyden av rektangel. CM");
+var width = prompt ("Lengden av rektangel. CM");
+
+   
+var perimeter = (2 * length ) + (2 * width );
+var area= length * width ;
+var volume= length * width ;
+
+ document.getElementById("a").innerHTML =
+        "Areal av rektangel:"  + area;
+ document.getElementById("p").innerHTML =
+        "Omkrets av rektangel:"  + perimeter ;
+}
+</script>
+
+</body>
+</html>
